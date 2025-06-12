@@ -1,0 +1,90 @@
+body {
+  background-color: #fffaf0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  font-family: "Quicksand";
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "Quicksand";
+  font-size: 50px;
+}
+
+.wrapper span {
+  color: #f4b400;
+}
+
+.wrapper p {
+  margin-top: -16px;
+  margin-bottom: 20px;
+  margin-inline: 40px;
+}
+
+.main-form form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#places {
+  width: 200px;
+  height: 25px;
+  min-height: 25px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #fdd835;
+  border-radius: 10px;
+  margin: 0 0;
+  resize: none;
+  background: #fffceb;
+  overflow: hidden;
+}
+
+#call {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 0;
+  resize: none;
+  background: #fdd835;
+  overflow: hidden;
+}
+
+#call:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  margin-inline: 12px;
+}
+
+.checklist-item {
+  display: flex;
+  background: #fff9c4;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.separator {
+  border: none; /* Remove default border */
+  border-top: 3px dotted #f4b400; /* Add a custom dotted border on top */
+  width: 50%; /* Make it half width */
+  margin: 30px auto; /* Center it horizontally with some vertical space */
+  margin-bottom: 0;
+  height: 0; /* Set height to 0 as border handles thickness */
+}

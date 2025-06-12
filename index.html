@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo.len | App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="welcome">
+        <h1>Welcome to <span class="identity">Todo.len</span> !</h1>
+        <p>
+          You can create your TODO list as simple as your life after using this!
+        </p>
+      </div>
+      <div class="main-form">
+        <form id="todo-form">
+          <textarea
+            name="place"
+            id="places"
+            class="places"
+            placeholder="Enter your activites"
+          ></textarea>
+          <button
+            type="button"
+            class="places"
+            id="call"
+            onclick="generateChecklist()"
+          >
+            make
+          </button>
+        </form>
+      </div>
+      <hr class="separator" />
+      <div class="container"></div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1d866b7d6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
